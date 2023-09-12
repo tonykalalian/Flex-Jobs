@@ -1,0 +1,112 @@
+#hero
+{
+  width: 100%;
+  height: 97vh;
+  background: #37517e;
+}
+#hero .container
+{
+  padding-top: 100px;
+}
+
+#hero h1
+{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero h2
+{
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+#hero ul
+{
+  text-decoration-style: double;
+  color:#fff;
+}
+
+#hero .btn
+{
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #fff;
+  color: #37517e
+}
+
+#hero .btn:hover
+{
+    background: #bbb;
+}
+
+#hero .btn-watch-video
+{
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  margin: 10px 0 0 25px;
+  border-radius: 60px;
+  background: #fff;
+  padding: 10px 28px 11px 28px;
+
+  color: #37517e;
+  line-height: 1;
+  text-decoration: none;
+}
+
+#hero .btn-watch-video i
+{
+  line-height: 0;
+  color: #37517e;
+  background: #fff;
+
+  font-size: 32px;
+  transition: 0.3s;
+  margin-right: 8px;
+
+}
+#hero .btn-watch-video:hover{
+  background: #bbb;
+  
+}
+
+
+#hero .animated 
+{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.clients
+{
+  padding: 12px 0;
+  text-align: center;
+}
+
+.clients img
+{
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+
+.clients img:hover
+{
+  filter: none;
+  transform: scale(1.1);
+}
