@@ -9,11 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { TeamComponent } from './team/team.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
 import { HttpClientModule } from '@angular/common/http';
-
-
 
 @NgModule({
   declarations: [
@@ -24,10 +20,6 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     HomeComponent,
     TeamComponent,
-    LoginComponent,
-    RegisterComponent,
-
-  
   ],
   imports: [
     BrowserModule,
@@ -37,6 +29,6 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

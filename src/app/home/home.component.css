@@ -1,16 +1,13 @@
-#hero
-{
+#hero {
   width: 100%;
   height: 97vh;
   background: #37517e;
 }
-#hero .container
-{
+#hero .container {
   padding-top: 100px;
 }
 
-#hero h1
-{
+#hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -18,21 +15,18 @@
   color: #fff;
 }
 
-#hero h2
-{
+#hero h2 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 24px;
 }
 
-#hero ul
-{
+#hero ul {
   text-decoration-style: double;
-  color:#fff;
+  color: #fff;
 }
 
-#hero .btn
-{
+#hero .btn {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -44,16 +38,14 @@
   margin: 10px 0 0 0;
   color: #fff;
   background: #fff;
-  color: #37517e
+  color: #37517e;
 }
 
-#hero .btn:hover
-{
-    background: #bbb;
+#hero .btn:hover {
+  background: #bbb;
 }
 
-#hero .btn-watch-video
-{
+#hero .btn-watch-video {
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -68,8 +60,7 @@
   text-decoration: none;
 }
 
-#hero .btn-watch-video i
-{
+#hero .btn-watch-video i {
   line-height: 0;
   color: #37517e;
   background: #fff;
@@ -77,27 +68,21 @@
   font-size: 32px;
   transition: 0.3s;
   margin-right: 8px;
-
 }
-#hero .btn-watch-video:hover{
+#hero .btn-watch-video:hover {
   background: #bbb;
-  
 }
 
-
-#hero .animated 
-{
+#hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-.clients
-{
+.clients {
   padding: 12px 0;
   text-align: center;
 }
 
-.clients img
-{
+.clients img {
   max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -105,8 +90,7 @@
   filter: grayscale(100);
 }
 
-.clients img:hover
-{
+.clients img:hover {
   filter: none;
   transform: scale(1.1);
 }
